@@ -1,0 +1,17 @@
+class name1(){
+	int $a;
+	$f = int[][][] function(int $a,$b,$c,$d)
+	{
+		$a=1;
+		$b=$a[1];
+		$c='\t';
+		$d="string\n";
+	};
+};
+class name2(name1){
+	int $g;
+};
+name1 $a;
+name2 $b;
+$a.$f(1,2,3,4);
+$b.$f(1,2,3,4);
